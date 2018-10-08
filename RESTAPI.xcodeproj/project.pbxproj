@@ -15,6 +15,9 @@
 		97329508216B553B00F71BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97329506216B553B00F71BB6 /* LaunchScreen.storyboard */; };
 		97329513216B553B00F71BB6 /* RESTAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97329512216B553B00F71BB6 /* RESTAPITests.swift */; };
 		9732951E216B553B00F71BB6 /* RESTAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9732951D216B553B00F71BB6 /* RESTAPIUITests.swift */; };
+		9732952C216B557700F71BB6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9732952B216B557700F71BB6 /* MainViewController.swift */; };
+		9732952E216B58AA00F71BB6 /* ArticleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9732952D216B58AA00F71BB6 /* ArticleViewCell.swift */; };
+		97329530216B5D0500F71BB6 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9732952F216B5D0500F71BB6 /* ArticleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		97329519216B553B00F71BB6 /* RESTAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESTAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9732951D216B553B00F71BB6 /* RESTAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTAPIUITests.swift; sourceTree = "<group>"; };
 		9732951F216B553B00F71BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9732952B216B557700F71BB6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9732952D216B58AA00F71BB6 /* ArticleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewCell.swift; sourceTree = "<group>"; };
+		9732952F216B5D0500F71BB6 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				97329506216B553B00F71BB6 /* LaunchScreen.storyboard */,
 				97329509216B553B00F71BB6 /* Info.plist */,
 				97329501216B553B00F71BB6 /* RESTAPI.xcdatamodeld */,
+				9732952B216B557700F71BB6 /* MainViewController.swift */,
+				9732952D216B58AA00F71BB6 /* ArticleViewCell.swift */,
+				9732952F216B5D0500F71BB6 /* ArticleModel.swift */,
 			);
 			path = RESTAPI;
 			sourceTree = "<group>";
@@ -263,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				97329503216B553B00F71BB6 /* RESTAPI.xcdatamodeld in Sources */,
+				9732952E216B58AA00F71BB6 /* ArticleViewCell.swift in Sources */,
 				973294FD216B553B00F71BB6 /* ViewController.swift in Sources */,
 				973294FB216B553B00F71BB6 /* AppDelegate.swift in Sources */,
+				97329530216B5D0500F71BB6 /* ArticleModel.swift in Sources */,
+				9732952C216B557700F71BB6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
